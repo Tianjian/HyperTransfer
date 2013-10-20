@@ -17,16 +17,16 @@ How to Build This
 Following steps are tested in Ubuntu 12.04 LTS, modify them according to your development environments
 
 Dependency:
-libevent 1.4.14b stable
+1.libevent 1.4.14b stable
 ./configure --prefix=/opt/libevent-static --enable-static --disable-shared
 
-log4cplus 1.1.1
+2.log4cplus 1.1.1
 ./configure --prefix=/opt/log4cplus --enable-static --disable-shared
 
-libssl-dev
+3.libssl-dev
 ./sudo aptitude install libssl-dev
 
-cmake
+4.cmake
 ./sudo aptitude install cmake
 
 
