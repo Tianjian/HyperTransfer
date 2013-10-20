@@ -5,12 +5,12 @@ A high performance FTP software & a hobby project of mine.
 
 Features & Known Bugs
 =============
-1) Half Synchronize Half Asynchronize architecture, fully utilizations of your CPU, networking bandwidth and disk
+1.Half Synchronize Half Asynchronize architecture, fully utilizations of your CPU, networking bandwidth and disk
 bandwidth  
 
-2) PASV mode implemented only, sorry for that. Besides, active mode has bad impacts on firewall configuration
+2.PASV mode implemented only, sorry for that. Besides, active mode has bad impacts on firewall configuration
 
-3) Crush sometimes due to file description serial number reuse of Linux kernel
+3.Crush sometimes due to file description serial number reuse of Linux kernel
 
 How to Build This
 =============
